@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Public+Sans:ital,wght@0,300;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo Black", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(34, 31, 31);
+}
+
+.conteudo1 {
+  width: 420px;
+  background: #1ed760;
+  color: rgb(34, 31, 31);
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 0 auto;
+}
+
+.conteudo1 h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.conteudo1 .modelo {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.modelo input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+
+.modelo input::placeholder {
+  color: rgb(34, 31, 31);
+}
+
+.modelo i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.conteudo1 .placa {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.placa input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+
+.placa input::placeholder {
+  color: rgb(34, 31, 31);
+}
+
+.placa i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.conteudo1 .data {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  margin: -15px 0 15px;
+}
+
+.data {
+    color: rgb(34, 31, 31);
+}
+
+.conteudo1 .botao {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(34, 31, 31);
+  font-weight: 600;
+}
+
+.conteudo1 .descreva {
+  margin: 20px 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="date"] {
+    background-color: rgb(34, 31, 31);
+    padding: 15px;
+    font-family: "Archivo Black", sans-serif;
+    color: #1ed760;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.revisao {
+    font-size: 18px;
+}
+
+.descreva input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+
+.descreva input::placeholder {
+    color: rgb(34, 31, 31);
+}
+
+.descricao {
+    font-size: 18px;
+}

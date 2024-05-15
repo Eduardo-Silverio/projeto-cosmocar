@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./src/veiculo.css">
+    <title>Cadastro de veículo</title>
+  </head>
+  <body>
+    <main class="principal">
+      <div class="conteudo1">
+        <form action="">
+          <h1>Cadastre seu veículo</h1>
+          <div class="modelo">
+            <input type="text" placeholder="Modelo" required />
+            <i class='bx bxs-car'></i>
+          </div>
+          <div class="placa">
+            <input type="text" placeholder="Placa" required />
+            <i class='bx bxs-rectangle'></i>
+          </div>
+
+          <div class="data">
+            <span class="revisao">Ultima revisão realizada</span>
+            <input type="date"/>
+          </div>
+          <span class="descricao">Descreva para nós o seu problema</span>
+          <i class='bx bxs-car-mechanic' ></i>
+          <div class="descreva">
+              <input type="text" placeholder="Descrição" >
+          </div>
+
+          <button type="submit" class="botao">Cadastrar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
